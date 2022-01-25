@@ -191,6 +191,12 @@ PRODUCT_PACKAGES += \
     libplatformconfig \
     libarbitrarybytes
 
+# Leds
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service.begonia
+
+
 # Media
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
