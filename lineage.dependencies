@@ -24,26 +24,8 @@
     "remote": "github"
   },
   {
-    "repository" : "7Soldier/vendor_gcambsg",
-    "target_path": "vendor/gcambsg",
-    "branch": "twelve",
-    "remote": "github"
-  },
-  {
-    "repository" : "7Soldier/vendor_v4afx",
-    "target_path": "vendor/v4afx",
-    "branch": "twelve",
-    "remote": "github"
-  },
-  {
     "repository" : "7Soldier/vendor_dirac",
     "target_path": "vendor/dirac",
-    "branch": "twelve",
-    "remote": "github"
-  },
-  {
-    "repository" : "7Soldier/vendor_ANXCamera",
-    "target_path": "vendor/ANXCamera",
     "branch": "twelve",
     "remote": "github"
   },
@@ -52,5 +34,12 @@
     "target_path": "vendor/redmi/begonia-firmware",
     "branch": "twelve",
     "remote": "github"
+  },
+  {
+    "repository" : "7Soldier/vendor_ANXCamera",
+    "target_path": "vendor/ANXCamera",
+    "branch": "twelve",
+    "remote": "github"
   }
+  
 ]
