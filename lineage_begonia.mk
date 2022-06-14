@@ -43,7 +43,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 TARGET_ENABLE_BLUR := true
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
-WITH_GAPPS := true
+WITH_GAPPS := false
 RICE_MAINTAINER := Tanz Archeart
 
 ## Device identifier. This must come after all inclusions
