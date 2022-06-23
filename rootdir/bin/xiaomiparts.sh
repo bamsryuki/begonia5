@@ -210,11 +210,11 @@ if [ "$codecs_old" != "$codecs" ]; then
   setprop debug.stagefright.c2inputsurface 0
   killall mediaserver
   ;;
-  *)# First boot params (Software C2)
-  setprop debug.stagefright.omx_default_rank 512
+  *)# First boot params (Google OMX)
+  setprop debug.stagefright.omx_default_rank 1000
   setprop debug.stagefright.ccodec 4
   setprop debug.media.codec2 2
-  setprop debug.stagefright.c2inputsurface -1
+  setprop debug.stagefright.c2inputsurface 0
   killall mediaserver
   ;;
   esac
