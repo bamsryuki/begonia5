@@ -34,7 +34,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# riceDroid Flags
+# RiceDroid Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
@@ -42,6 +42,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_BUILD_GRAPHENEOS_CAMERA := true
 WITH_GAPPS := true
 RICE_MAINTAINER := Tanz Archeart
+RICE_OFFICIAL := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
