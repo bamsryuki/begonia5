@@ -34,12 +34,6 @@
     "target_path": "vendor/redmi/begonia-firmware",
     "branch": "twelve",
     "remote": "github"
-  },
-  {
-    "repository" : "7Soldier/vendor_ANXCamera",
-    "target_path": "vendor/ANXCamera",
-    "branch": "twelve",
-    "remote": "github"
   }
   
 ]
