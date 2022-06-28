@@ -22,7 +22,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
 $(call inherit-product, vendor/dirac/config.mk)
-$(call inherit-product, vendor/ANXCamera/config.mk)
 
 # Fix uses broken libraries
 RELAX_USES_LIBRARY_CHECK := true
@@ -40,7 +39,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 TARGET_ENABLE_BLUR := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
 WITH_GAPPS := true
 RICE_MAINTAINER := Tanz Archeart
 
