@@ -16,14 +16,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit some common riceDroid stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Rom flags
-RICE_MAINTAINER := Paul
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
-TARGET_ENABLE_BLUR := true
-WITH_GMS := true
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
