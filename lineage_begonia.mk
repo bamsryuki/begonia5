@@ -37,7 +37,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 TARGET_ENABLE_BLUR := true
-WITH_GAPPS := false
+WITH_GAPPS := true
 RICE_MAINTAINER := BAMBANG FIRDAUS ZR.
 
 ## Device identifier. This must come after all inclusions
